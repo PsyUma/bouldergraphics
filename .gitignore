@@ -18,3 +18,5 @@ _ide_helper.php
 /.sass-cache
 /public/assets
 /resources/assets/js/vendor
+/resources/views/layouts/master.blade.php
+/resources/views/layouts/scripts.blade.php
