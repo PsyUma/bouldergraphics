@@ -10,3 +10,11 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .env
+
+_ide_helper.php
+/resources/views/vendor
+/config/ide-helper.php
+
+/.sass-cache
+/public/assets
+/resources/assets/js/vendor
