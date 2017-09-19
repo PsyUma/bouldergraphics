@@ -41,6 +41,56 @@
 
     </div>
 
+    <div class="app-tooling-container">
+
+        <div class="app-tooling-content-container">
+
+            <div class="sub-divison-content-container tooling-content-container text-center">
+                <div class="tools-image-container">
+                    <img class="tools-image-icon" src="/assets/images/icons/sub-divide-quads.png" />
+                </div>
+                <div class="tools-text-container">
+                    <span class="tools-description">Touch-Driven Sub Division</span>
+                </div>
+            </div>
+
+            <div class="3d-tooling-content-container tooling-content-container text-center">
+                <div class="tools-image-container">
+                    <img class="tools-image-icon" src="/assets/images/icons/modify.png" />
+                </div>
+                <div class="tools-text-container">
+                    <span class="tools-description">Professional 3D Tools</span>
+                </div>
+            </div>
+
+            <div class="shading-effects-content-container tooling-content-container text-center">
+                <div class="tools-image-container">
+                    <img class="tools-image-icon" src="/assets/images/icons/phong.png" />
+                </div>
+                <div class="tools-text-container">
+                    <span class="tools-description">Stunning Shading Effects</span>
+                </div>
+            </div>
+
+            <div class="verto-integration-content-container tooling-content-container text-center">
+                <div class="tools-image-container">
+                    <img class="tools-image-icon" src="/assets/images/icons/verto-icon.png" />
+                </div>
+                <div class="tools-text-container">
+                    <span class="tools-description">Verto Studio Integration</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="app-description-container">
+
+    </div>
+
+    <div class="app-features-container">
+
     </div>
 
 </div>
