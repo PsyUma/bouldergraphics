@@ -69,6 +69,17 @@ a, a:visited, a:hover, a:focus {
 .outside-container {
 
   .inner-container {
-    margin-top: 70px;
+    margin-top: 50px;
   }
+
+  .navbar-default {
+    background-color: $lightBlue;
+    border-color: $lightBlue;
+    color: $white;
+
+    .navbar-brand, .navbar-nav > li > a  {
+      color: $white;
+    }
+  }
+
 }
