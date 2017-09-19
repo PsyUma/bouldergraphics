@@ -1,13 +1,114 @@
 .home-page-container {
 
+  &.inner-container {
+    margin-bottom: 200px;
+  }
 
-    .splash-container {
+  .splash-container {
 
-        height: 300px;
+    .splash-image-background-container {
+      background: url(/assets/images/background-plain.png) 50% 50% no-repeat;
+      background-color: $lightGray;
+      background-size: cover;
+      width: 100%;
+      height: 650px;
+      position: relative;
+      padding-top: 65px;
+
+      .splash-image-container {
+
+        .splash-image {
+
+          margin-left: 35px;
+
+          .splash-image-icon {
+            height: 500px;
+          }
+        }
+      }
+    }
+
+    .splash-action-container {
+      color: $white;
+
+      .action-container {
+        margin-top: 60px;
+        margin-right: 35px;
+      }
+
+      .logo-icon-container {
+        .logo-icon {
+          width: 150px;
+        }
+      }
+
+      .app-tag-line-container {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
 
         .splash-text {
-            padding-top: 100px;
-            font-size: 24px;
+          font-size: 24px;
         }
+      }
+
+      .app-download-container {
+        margin-top: 25px;
+
+        .btn-download-superd-app {
+          border-radius: 0px;
+          height: 50px;
+          width: 200px;
+          font-size: 18px;
+        }
+      }
     }
+  }
+
+  .app-tooling-container {
+    width: 100%;
+    height: 180px;
+    padding-top: 40px;
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+
+    .app-tooling-content-container {
+      width: 1180px;
+      margin: 0px auto;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      @media (max-width: $bootstrapLargeWidth) {
+        width: 950px;
+      }
+
+      @media (max-width: $bootstrapMediumWidth) {
+        width: 950px;
+      }
+
+      @media (max-width: $bootstrapSmallWidth) {
+        width: 950px;
+      }
+
+      .tooling-content-container {
+        width: 250px;
+
+        @media (max-width: $bootstrapLargeWidth) {
+          width: 200px;
+        }
+
+        .tools-image-icon {
+          width: 50px;
+          height: 50px;
+        }
+
+        .tools-text-container {
+          margin-top: 15px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
 }
