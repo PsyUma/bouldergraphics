@@ -107,24 +107,12 @@
       .app-download-container {
         margin-top: 25px;
 
-        @media (max-width: $bootstrapMediumWidth) {
-          width: 350px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        @media (max-width: $bootstrapSmallWidth) {
-          width: 250px;
-        }
-
-        .app-download-btns-container {
-
-        }
-
         .btn-boulder-download {
-          border-radius: 0px;
           height: 50px;
           width: 200px;
           font-size: 18px;
+          background-color: $bootstrapGrayButton;
+          border-radius: 0px;
 
           &.btn-download-superd-app {
             margin-right: 10px;
@@ -156,6 +144,12 @@
     @media (max-width: $bootstrapSmallWidth) {
       height: 280px;
     }
+    @media (max-width: 450px) {
+      height: 300px;
+    }
+    @media (max-width: 350px) {
+      height: 325px;
+    }
 
     .app-tooling-content-container {
       width: 1180px;
@@ -182,7 +176,7 @@
         max-width: 550px;
       }
       @media (max-width: 450px) {
-        padding: 0px 40px;
+        padding: 0px 15px;
       }
 
       .tooling-content-container {
@@ -200,6 +194,9 @@
         }
         @media (max-width: 450px) {
           width: 150px;
+        }
+        @media (max-width: 350px) {
+          width: 125px;
         }
 
         .tools-image-icon {

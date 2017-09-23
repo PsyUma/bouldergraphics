@@ -108,6 +108,10 @@ a, a:visited, a:hover, a:focus {
       display: inline-flex;
       margin-bottom: 25px;
 
+      @media (max-width: 400px) {
+        width: 100%;
+      }
+
       .footer-social-icon {
         color: $white;
         font-size: 30px;
