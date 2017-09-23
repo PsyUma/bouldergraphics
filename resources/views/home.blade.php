@@ -23,7 +23,7 @@
                     </div>
 
                     <div class="app-tag-line-container text-center">
-                        <span class="splash-text">3D Conceptual Modeling Software for Mobile Devices</span>
+                        <span class="splash-text">3D Conceptual Modeling Software For Mobile Devices</span>
                     </div>
 
                     <div class="app-download-container">
@@ -60,7 +60,7 @@
                     <img class="tools-image-icon" src="/assets/images/icons/sub-divide-quads.png" />
                 </div>
                 <div class="tools-text-container">
-                    <span class="tools-description">Touch-Driven Sub Division</span>
+                    <span class="tools-description">Touch-Driven SubD UI</span>
                 </div>
             </div>
 
@@ -69,7 +69,7 @@
                     <img class="tools-image-icon" src="/assets/images/icons/modify.png" />
                 </div>
                 <div class="tools-text-container">
-                    <span class="tools-description">Professional 3D Tools</span>
+                    <span class="tools-description">Design On The Go</span>
                 </div>
             </div>
 
@@ -83,12 +83,14 @@
             </div>
 
             <div class="verto-integration-content-container tooling-content-container text-center">
-                <div class="tools-image-container">
-                    <img class="tools-image-icon" src="/assets/images/icons/verto-icon.png" />
-                </div>
-                <div class="tools-text-container">
-                    <span class="tools-description">Verto Studio Integration</span>
-                </div>
+                <a href="https://vertostudio.com/" target="_blank">
+                    <div class="tools-image-container">
+                        <img class="tools-image-icon" src="/assets/images/icons/verto-icon.png" />
+                    </div>
+                    <div class="tools-text-container">
+                        <span class="tools-description">Verto Studio Content</span>
+                    </div>
+                </a>
             </div>
 
         </div>
