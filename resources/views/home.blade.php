@@ -10,7 +10,7 @@
 
             <div class="splash-image-container form-group-no-margin col-sm-6">
                 <div class="splash-image text-center">
-                    <img class="splash-image-icon" src="/assets/images/splash-image.png" />
+                    <img class="splash-image-icon" src="/assets/images/hero-1000.png" />
                 </div>
             </div>
 
@@ -23,7 +23,7 @@
                     </div>
 
                     <div class="app-tag-line-container text-center">
-                        <span class="splash-text">The worlds most advanced Sub Division modeling software</span>
+                        <span class="splash-text">3D Conceptual Modeling Software for Mobile Devices</span>
                     </div>
 
                     <div class="app-download-container">
