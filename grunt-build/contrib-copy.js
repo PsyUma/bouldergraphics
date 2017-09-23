@@ -54,6 +54,24 @@ module.exports = function(grunt) {
                 }
             ]
         },
+        fonts: {
+            files: [
+                {
+                    src: 'resources/assets/css/library/fonts/font-awesome.min.css',
+                    dest: 'public/assets/css/font-awesome.min.css'
+                },
+                {
+                    src: 'resources/assets/css/library/fonts/fonts.css',
+                    dest: 'public/assets/css/fonts.css'
+                },
+                {
+                    expand: true,
+                    cwd: 'resources/assets/css/library/fonts/font-awesome-4.7.0',
+                    src: ['**/*'],
+                    dest: 'public/assets/fonts/fontawesome'
+                }
+            ]
+        },
         images: {
             files: [
                 {
