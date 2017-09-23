@@ -13,7 +13,6 @@
       width: 100%;
       height: 650px;
       position: relative;
-      padding-top: 65px;
 
       @media (max-width: $bootstrapSmallWidth) {
         height: 500px;
@@ -27,17 +26,22 @@
 
         .splash-image {
 
-          margin-left: 100px;
+          margin-top: 25px;
+          margin-right: 100px;
 
           @media (max-width: $bootstrapMediumWidth) {
-            margin-left: 80px;
+            margin-right: 80px;
+          }
+          @media (max-width: $bootstrapSmallWidth) {
+            margin-top: 50px;
+            margin-right: 30px;
           }
 
           .splash-image-icon {
-            height: 500px;
+            height: 600px;
 
             @media (max-width: $bootstrapSmallWidth) {
-              height: 300px;
+              height: 400px;
             }
           }
         }
@@ -53,17 +57,22 @@
       }
 
       .download-action-container {
-        margin-top: 60px;
-        margin-right: 150px;
+        margin-top: 100px;
+        margin-left: 150px;
 
         @media (max-width: $bootstrapLargeWidth) {
-          margin-right: 50px;
+          margin-left: 50px;
         }
         @media (max-width: $bootstrapMediumWidth) {
-          margin-right: 0px;
+          margin-left: 0px;
         }
         @media (max-width: $bootstrapSmallWidth) {
-          margin-top: 20px;
+          margin-top: 65px;
+          margin-left: 40px;
+        }
+        @media (max-width: 550px) {
+          margin-top: 65px;
+          margin-left: 0px;
         }
 
         .action-container {
@@ -84,11 +93,14 @@
       }
 
       .logo-icon-container {
+
+        margin-bottom: 20px;
+
         .logo-icon {
-          width: 150px;
+          width: 200px;
 
           @media (max-width: $bootstrapSmallWidth) {
-            width: 100px;
+            width: 150px;
           }
         }
       }
@@ -105,7 +117,7 @@
       }
 
       .app-download-container {
-        margin-top: 25px;
+        margin-top: 30px;
 
         .btn-boulder-download {
           height: 50px;

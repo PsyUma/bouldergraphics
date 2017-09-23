@@ -8,13 +8,7 @@
 
         <div class="splash-image-background-container">
 
-            <div class="splash-image-container form-group-no-margin col-xs-5 col-sm-5 col-md-6">
-                <div class="splash-image text-center">
-                    <img class="splash-image-icon" src="/assets/images/hero-1000.png" />
-                </div>
-            </div>
-
-            <div class="splash-action-container form-group-no-margin col-xs-7 col-sm-7 col-md-6">
+            <div class="splash-action-container form-group-no-margin col-xs-6 col-sm-6 col-md-6">
 
                 <div class="download-action-container">
 
@@ -54,6 +48,12 @@
 
                 </div>
 
+            </div>
+
+            <div class="splash-image-container form-group-no-margin col-xs-6 col-sm-6 col-md-6">
+                <div class="splash-image text-center">
+                    <img class="splash-image-icon" src="/assets/images/hero-1000-small.png" />
+                </div>
             </div>
 
         </div>
