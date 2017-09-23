@@ -87,7 +87,7 @@
                     <img class="tools-image-icon" src="/assets/images/icons/phong.png" />
                 </div>
                 <div class="tools-text-container">
-                    <span class="tools-description">Stunning Shading Effects</span>
+                    <span class="tools-description">High Quality Surfaces</span>
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
                         <img class="tools-image-icon" src="/assets/images/icons/verto-icon.png" />
                     </div>
                     <div class="tools-text-container">
-                        <span class="tools-description">Verto Studio Content</span>
+                        <span class="tools-description">Verto Studio Compatible</span>
                     </div>
                 </a>
             </div>
