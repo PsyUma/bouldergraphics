@@ -37,7 +37,7 @@
 
                         <a href="/assets/images/superd-tutorial.pdf" download="superd-tutorial">
                             <button type="button" class="btn btn-boulder-download btn-download-superd-tutorial">
-                                <span class="fa fa-download tutorial-pdf-icon"></span>
+                                <span class="fa fa-file-text-o tutorial-pdf-icon"></span>
                                 <span class="tutorial-pdf-text">Download Tutorial</span>
                             </button>
                         </a>
