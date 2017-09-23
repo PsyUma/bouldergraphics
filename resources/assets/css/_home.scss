@@ -1,8 +1,8 @@
 .home-page-container {
 
-  &.inner-container {
+  /*&.inner-container {
     margin-bottom: 200px;
-  }
+  }*/
 
   .splash-container {
 
@@ -115,6 +115,63 @@
           margin-top: 15px;
           font-size: 20px;
         }
+      }
+    }
+  }
+
+  .app-description-container {
+
+    height: 600px;
+    background-color: $veryLightGray;
+
+    .app-description-content-container {
+      padding-top: 40px;
+    }
+
+    .app-description-feature-container {
+
+      .app-inner-description-container {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .description-title-container {
+
+          margin-bottom: 25px;
+
+          &.app-features-title-container {
+            margin-top: 15px;
+          }
+
+          .title-text {
+            font-size: 36px;
+            font-weight: bold;
+          }
+        }
+
+        .description-content-container {
+
+          &.app-content-text-container {
+            margin-bottom: 25px;
+          }
+
+          .content-text, .description-content-list {
+            font-size: 18px;
+          }
+
+          .feature-list-item {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    .app-model-image {
+
+      margin-right: 200px;
+
+      .model-image {
+        width: 300px;
       }
     }
   }

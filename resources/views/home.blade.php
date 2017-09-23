@@ -99,9 +99,51 @@
 
     <div class="app-description-container">
 
-    </div>
+        <div class="app-description-content-container">
 
-    <div class="app-features-container">
+            <div class="app-description-feature-container form-group-no-margin col-sm-6">
+
+                <div class="app-inner-description-container">
+
+                    <div class="learn-use-title-container description-title-container">
+                        <span class="title-text">Quick to Learn and Easy to Use</span>
+                    </div>
+
+                    <div class="app-content-text-container description-content-container">
+                        <span class="content-text text-left">
+                            SuperD uses the highly popular recursive subdivision (SubD) design interface.
+                            On the backend, it employs a novel surfacing technique which results in
+                            faster computation, less memory demands, and high quality surfaces.
+                        </span>
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="app-features-title-container description-title-container">
+                        <span class="title-text">Features</span>
+                    </div>
+
+                    <div class="description-content-container">
+                        <div class="description-content-list">
+                            <div class="feature-list-item">SubDivision control cage interface</div>
+                            <div class="feature-list-item">Dynamic level of detail via resolution settings</div>
+                            <div class="feature-list-item">OBJ import/export</div>
+                            <div class="feature-list-item">Move, scale, and rotate</div>
+                            <div class="feature-list-item">Rouding and squaring corners and edges</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="app-description-image-container form-group-no-margin col-sm-6">
+                <div class="app-model-image text-center">
+                    <img class="model-image" src="/assets/images/blue-model.png" />
+                </div>
+            </div>
+
+        </div>
 
     </div>
 
