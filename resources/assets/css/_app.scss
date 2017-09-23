@@ -62,8 +62,13 @@ body {
 a, a:visited, a:hover, a:focus {
   color: $black;
   cursor: pointer;
+  outline: none;
   text-decoration: none;
   width: inherit;
+}
+
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+  outline: none;
 }
 
 .outside-container {

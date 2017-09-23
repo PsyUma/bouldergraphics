@@ -28,9 +28,19 @@
 
                     <div class="app-download-container">
 
-                        <button type="button" class="btn btn-boulder btn-download-superd-app">
-                            <a href="http://appstore.com/superd" target="_blank">Download SuperD</a>
-                        </button>
+                        <a href="http://appstore.com/superd" target="_blank">
+                            <button type="button" class="btn btn-boulder-download btn-download-superd-app">
+                                <span class="fa fa-apple ios-app-icon"></span>
+                                <span class="ios-app-text">Download SuperD</span>
+                            </button>
+                        </a>
+
+                        <a href="/assets/images/superd-tutorial.pdf" download="superd-tutorial">
+                            <button type="button" class="btn btn-boulder-download btn-download-superd-tutorial">
+                                <span class="fa fa-download tutorial-pdf-icon"></span>
+                                <span class="tutorial-pdf-text">Download Tutorial</span>
+                            </button>
+                        </a>
 
                     </div>
                 </div>

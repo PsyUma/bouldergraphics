@@ -33,7 +33,7 @@
 
       .action-container {
         margin-top: 60px;
-        margin-right: 35px;
+        margin-right: 150px;
       }
 
       .logo-icon-container {
@@ -43,7 +43,7 @@
       }
 
       .app-tag-line-container {
-        width: 350px;
+        width: 450px;
         margin-left: auto;
         margin-right: auto;
 
@@ -55,11 +55,18 @@
       .app-download-container {
         margin-top: 25px;
 
-        .btn-download-superd-app {
+        .btn-boulder-download {
           border-radius: 0px;
           height: 50px;
           width: 200px;
           font-size: 18px;
+
+          &.btn-download-superd-app {
+            margin-right: 5px;
+          }
+          &.btn-download-superd-tutorial {
+            margin-left: 5px;
+          }
         }
       }
     }
