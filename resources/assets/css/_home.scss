@@ -8,21 +8,33 @@
 
     .splash-image-background-container {
       background: url(/assets/images/background-plain.png) 50% 50% no-repeat;
-      background-color: $lightGray;
+      background-color: $backgroundBlue;
       background-size: cover;
       width: 100%;
       height: 650px;
       position: relative;
       padding-top: 65px;
 
+      @media (max-width: $bootstrapSmallWidth) {
+        height: 500px;
+      }
+
       .splash-image-container {
 
         .splash-image {
 
-          margin-left: 35px;
+          margin-left: 100px;
+
+          @media (max-width: $bootstrapMediumWidth) {
+            margin-left: 80px;
+          }
 
           .splash-image-icon {
             height: 500px;
+
+            @media (max-width: $bootstrapSmallWidth) {
+              height: 300px;
+            }
           }
         }
       }
@@ -31,29 +43,73 @@
     .splash-action-container {
       color: $white;
 
-      .action-container {
+      .download-action-container {
         margin-top: 60px;
         margin-right: 150px;
+
+        @media (max-width: $bootstrapLargeWidth) {
+          margin-right: 50px;
+        }
+        @media (max-width: $bootstrapMediumWidth) {
+          margin-right: 0px;
+        }
+        @media (max-width: $bootstrapSmallWidth) {
+          margin-top: 20px;
+        }
+
+        .action-container {
+          width: 450px;
+          margin-left: auto;
+          margin-right: auto;
+
+          @media (max-width: $bootstrapMediumWidth) {
+            width: 350px;
+          }
+          @media (max-width: $bootstrapSmallWidth) {
+            width: 100%;
+            max-width: 350px;
+            padding-left: 25px;
+            padding-right: 25px;
+          }
+        }
       }
 
       .logo-icon-container {
         .logo-icon {
           width: 150px;
+
+          @media (max-width: $bootstrapSmallWidth) {
+            width: 100px;
+          }
         }
       }
 
       .app-tag-line-container {
-        width: 450px;
-        margin-left: auto;
-        margin-right: auto;
 
         .splash-text {
           font-size: 24px;
+
+          @media (max-width: $bootstrapSmallWidth) {
+            font-size: 18px;
+          }
         }
       }
 
       .app-download-container {
         margin-top: 25px;
+
+        @media (max-width: $bootstrapMediumWidth) {
+          width: 350px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        @media (max-width: $bootstrapSmallWidth) {
+          width: 250px;
+        }
+
+        .app-download-btns-container {
+
+        }
 
         .btn-boulder-download {
           border-radius: 0px;
@@ -62,10 +118,19 @@
           font-size: 18px;
 
           &.btn-download-superd-app {
-            margin-right: 5px;
+            margin-right: 10px;
+
+            @media (max-width: $bootstrapMediumWidth) {
+              margin-bottom: 15px;
+              margin-right: 0px;
+            }
           }
           &.btn-download-superd-tutorial {
-            margin-left: 5px;
+            margin-left: 10px;
+
+            @media (max-width: $bootstrapMediumWidth) {
+              margin-left: 0px;
+            }
           }
         }
       }
@@ -78,6 +143,10 @@
     padding-top: 40px;
     border-top: 1px solid $black;
     border-bottom: 1px solid $black;
+
+    @media (max-width: $bootstrapSmallWidth) {
+      height: 280px;
+    }
 
     .app-tooling-content-container {
       width: 1180px;
@@ -92,11 +161,19 @@
       }
 
       @media (max-width: $bootstrapMediumWidth) {
-        width: 950px;
+        width: 750px;
       }
 
       @media (max-width: $bootstrapSmallWidth) {
-        width: 950px;
+        width: 550px;
+        padding: 0px 15px;
+      }
+      @media (max-width: 550px) {
+        width: 100%;
+        max-width: 550px;
+      }
+      @media (max-width: 450px) {
+        padding: 0px 40px;
       }
 
       .tooling-content-container {
@@ -105,15 +182,34 @@
         @media (max-width: $bootstrapLargeWidth) {
           width: 200px;
         }
+        @media (max-width: $bootstrapMediumWidth) {
+          width: 150px;
+        }
+        @media (max-width: $bootstrapSmallWidth) {
+          width: 200px;
+          margin-bottom: 25px;
+        }
+        @media (max-width: 450px) {
+          width: 150px;
+        }
 
         .tools-image-icon {
           width: 50px;
           height: 50px;
+
+          @media (max-width: $bootstrapMediumWidth) {
+            width: 35px;
+            height: 35px;
+          }
         }
 
         .tools-text-container {
           margin-top: 15px;
           font-size: 20px;
+
+          @media (max-width: $bootstrapMediumWidth) {
+            font-size: 18px;
+          }
         }
       }
     }
@@ -123,6 +219,11 @@
 
     height: 600px;
     background-color: $veryLightGray;
+
+    @media (max-width: $bootstrapSmallWidth) {
+      height: auto;
+      padding-bottom: 50px;
+    }
 
     .app-description-content-container {
       padding-top: 40px;
@@ -135,6 +236,13 @@
         margin-left: auto;
         margin-right: auto;
 
+        @media (max-width: $bootstrapLargeWidth) {
+          width: 450px;
+        }
+        @media (max-width: $bootstrapMediumWidth) {
+          width: 400px;
+        }
+
         .description-title-container {
 
           margin-bottom: 25px;
@@ -146,6 +254,13 @@
           .title-text {
             font-size: 36px;
             font-weight: bold;
+
+            @media (max-width: $bootstrapLargeWidth) {
+              font-size: 28px;
+            }
+            @media (max-width: $bootstrapMediumWidth) {
+              font-size: 24px;
+            }
           }
         }
 
@@ -169,6 +284,10 @@
     .app-model-image {
 
       margin-right: 200px;
+
+      @media (max-width: $bootstrapExtraLargeWidth) {
+        margin-right: 100px;
+      }
 
       .model-image {
         width: 300px;

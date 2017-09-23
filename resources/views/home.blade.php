@@ -8,41 +8,50 @@
 
         <div class="splash-image-background-container">
 
-            <div class="splash-image-container form-group-no-margin col-sm-6">
+            <div class="splash-image-container form-group-no-margin col-xs-5 col-sm-5 col-md-6">
                 <div class="splash-image text-center">
                     <img class="splash-image-icon" src="/assets/images/hero-1000.png" />
                 </div>
             </div>
 
-            <div class="splash-action-container form-group-no-margin col-sm-6">
+            <div class="splash-action-container form-group-no-margin col-xs-7 col-sm-7 col-md-6">
 
-                <div class="action-container text-center">
+                <div class="download-action-container">
 
-                    <div class="logo-icon-container">
-                        <img class="logo-icon" src="/assets/images/logo.png" />
+                    <div class="action-container text-center">
+
+                        <div class="logo-icon-container">
+                            <img class="logo-icon" src="/assets/images/logo.png" />
+                        </div>
+
+                        <div class="app-tag-line-container text-center">
+                            <span class="splash-text">3D Conceptual Modeling Software For Mobile Devices</span>
+                        </div>
+
+                        <div class="app-download-container">
+
+                            <div class="app-download-btns-container">
+
+                                <a href="http://appstore.com/superd" target="_blank">
+                                    <button type="button" class="btn btn-boulder-download btn-download-superd-app">
+                                        <span class="fa fa-apple ios-app-icon"></span>
+                                        <span class="ios-app-text">Download SuperD</span>
+                                    </button>
+                                </a>
+
+                                <a href="/assets/images/superd-tutorial.pdf" download="superd-tutorial">
+                                    <button type="button" class="btn btn-boulder-download btn-download-superd-tutorial">
+                                        <span class="fa fa-file-text-o tutorial-pdf-icon"></span>
+                                        <span class="tutorial-pdf-text">Download Tutorial</span>
+                                    </button>
+                                </a>
+
+                            </div>
+
+                        </div>
+
                     </div>
 
-                    <div class="app-tag-line-container text-center">
-                        <span class="splash-text">3D Conceptual Modeling Software For Mobile Devices</span>
-                    </div>
-
-                    <div class="app-download-container">
-
-                        <a href="http://appstore.com/superd" target="_blank">
-                            <button type="button" class="btn btn-boulder-download btn-download-superd-app">
-                                <span class="fa fa-apple ios-app-icon"></span>
-                                <span class="ios-app-text">Download SuperD</span>
-                            </button>
-                        </a>
-
-                        <a href="/assets/images/superd-tutorial.pdf" download="superd-tutorial">
-                            <button type="button" class="btn btn-boulder-download btn-download-superd-tutorial">
-                                <span class="fa fa-file-text-o tutorial-pdf-icon"></span>
-                                <span class="tutorial-pdf-text">Download Tutorial</span>
-                            </button>
-                        </a>
-
-                    </div>
                 </div>
 
             </div>
@@ -101,7 +110,7 @@
 
         <div class="app-description-content-container">
 
-            <div class="app-description-feature-container form-group-no-margin col-sm-6">
+            <div class="app-description-feature-container form-group-no-margin col-sm-7 col-md-7">
 
                 <div class="app-inner-description-container">
 
@@ -137,7 +146,7 @@
 
             </div>
 
-            <div class="app-description-image-container form-group-no-margin col-sm-6">
+            <div class="app-description-image-container form-group-no-margin col-sm-5 col-md-5">
                 <div class="app-model-image text-center">
                     <img class="model-image" src="/assets/images/blue-model.png" />
                 </div>
