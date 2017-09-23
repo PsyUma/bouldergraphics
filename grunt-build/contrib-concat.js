@@ -6,7 +6,7 @@ module.exports = function(grunt) {
                 'resources/assets/js/vendor/jquery/dist/jquery.js',
                 'resources/assets/js/vendor/bootstrap-sass/assets/javascripts/bootstrap.js',
                 'resources/assets/js/vendor/angular/angular.js',
-                'resources/assets/js/app.js',
+                // 'resources/assets/js/app.js',
                 // 'resources/assets/js/constants/config.js',
                 // 'resources/assets/js/controllers/*.js',
                 // 'resources/assets/js/directives/*.js',
