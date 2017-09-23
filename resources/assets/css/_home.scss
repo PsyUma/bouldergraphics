@@ -307,21 +307,25 @@
 
     .app-model-image {
 
-      margin-right: 200px;
+      margin-left: 200px;
 
       @media (max-width: $bootstrapExtraLargeWidth) {
-        margin-right: 100px;
+        margin-left: 150px;
       }
-      @media (max-width: $bootstrapExtraLargeWidth) {
-        margin-top: 25px;
-        margin-right: 0px;
+      @media (max-width: $bootstrapLargeWidth) {
+        margin-left: 100px;
+      }
+      @media (max-width: $bootstrapMediumWidth) {
+        margin-left: 50px;
+      }
+      @media (max-width: 850px) {
+        margin-left: 15px;
       }
 
       .model-image {
         width: 300px;
 
-        @media (max-width: $bootstrapMediumWidth) {
-          /*width: 200px;*/
+        @media (max-width: $bootstrapSmallWidth) {
           display: none;
         }
       }

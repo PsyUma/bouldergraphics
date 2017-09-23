@@ -110,6 +110,12 @@
 
         <div class="app-description-content-container">
 
+            <div class="app-description-image-container form-group-no-margin col-sm-5 col-md-5">
+                <div class="app-model-image text-center">
+                    <img class="model-image" src="/assets/images/blue-model.png" />
+                </div>
+            </div>
+
             <div class="app-description-feature-container form-group-no-margin col-sm-7 col-md-7">
 
                 <div class="app-inner-description-container">
@@ -144,12 +150,6 @@
 
                 </div>
 
-            </div>
-
-            <div class="app-description-image-container form-group-no-margin col-sm-5 col-md-5">
-                <div class="app-model-image text-center">
-                    <img class="model-image" src="/assets/images/blue-model.png" />
-                </div>
             </div>
 
         </div>
