@@ -91,4 +91,29 @@ a, a:visited, a:hover, a:focus {
     }
   }
 
+  .boulder-footer {
+    height: 250px;
+    color: $white;
+    position: relative;
+    background-color: $darkBlue;
+
+    .footer-content-container {
+      width: 100%;
+      bottom: 20px;
+      position: absolute;
+    }
+
+    .social-icons-container {
+      width: 350px;
+      display: inline-flex;
+      margin-bottom: 25px;
+
+      .footer-social-icon {
+        color: $white;
+        font-size: 30px;
+      }
+    }
+
+  }
+
 }
