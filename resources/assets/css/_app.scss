@@ -89,10 +89,16 @@ a, a:visited, a:hover, a:focus {
     .navbar-brand, .navbar-nav > li > a  {
       color: $white;
     }
+
+    .navbar-nav {
+      @media (max-width: $bootstrapSmallWidth) {
+        margin: 0px;
+      }
+    }
   }
 
   .boulder-footer {
-    height: 250px;
+    height: 130px;
     color: $white;
     position: relative;
     background-color: $darkBlue;
