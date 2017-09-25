@@ -86,6 +86,28 @@ a, a:visited, a:hover, a:focus {
     border-color: $lightBlue;
     color: $white;
 
+    .navbar-container {
+
+      .navbar-toggle {
+        border-color: $white;
+
+        &:focus {
+          background-color: transparent;
+        }
+        &:hover {
+          background-color: $darkBlue;
+        }
+      }
+      .icon-bar {
+        background-color: $white;
+      }
+
+      .navbar-collapse {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
+
     .navbar-brand, .navbar-nav > li > a  {
       color: $white;
     }
