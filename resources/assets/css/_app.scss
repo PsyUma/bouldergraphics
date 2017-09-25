@@ -89,13 +89,14 @@ a, a:visited, a:hover, a:focus {
     .navbar-container {
 
       .navbar-toggle {
+        margin-right: 0px;
         border-color: $white;
 
         &:focus {
           background-color: transparent;
         }
         &:hover {
-          background-color: $darkBlue;
+          background-color: transparent;
         }
       }
       .icon-bar {
