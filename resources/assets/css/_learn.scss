@@ -1,0 +1,44 @@
+.learn-page-container {
+
+  .learning-center-container {
+    margin-top: 30px;
+    margin-bottom: 150px;
+
+    .learning-center-title {
+      width: 50%;
+      font-size: 36px;
+      margin-bottom: 25px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid $lightGrayBorder;
+    }
+
+    .demo-videos-container {
+
+      .demo-videos-title {
+        margin-bottom: 15px;
+
+        .demo-videos-title-text {
+          font-size: 24px;
+        }
+      }
+
+      .demo-video-content {
+
+        .video-title {
+          margin-bottom: 15px;
+
+          .video-title-text {
+            font-size: 18px;
+          }
+        }
+
+        .demo-video-iframe {
+          @media (max-width: 650px) {
+            width: 100%;
+            max-width: 600px;
+          }
+        }
+      }
+    }
+  }
+}
