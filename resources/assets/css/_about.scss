@@ -1,0 +1,16 @@
+.about-us-page-container {
+
+  height: 600px;
+
+  &.inner-container {
+    margin-top: 80px;
+  }
+
+  .about-us-title-container {
+    padding-bottom: 5px;
+    border-bottom: 2px solid $lightGrayBorder;
+  }
+  .about-us-title-text {
+    font-size: 36px;
+  }
+}

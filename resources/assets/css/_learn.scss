@@ -1,11 +1,15 @@
 .learn-page-container {
 
+  height: 600px;
+  margin-bottom: 150px;
+
+  &.inner-container {
+    margin-top: 80px;
+  }
+
   .learning-center-container {
-    margin-top: 30px;
-    margin-bottom: 150px;
 
     .learning-center-title {
-      width: 50%;
       font-size: 36px;
       margin-bottom: 25px;
       padding-bottom: 5px;
