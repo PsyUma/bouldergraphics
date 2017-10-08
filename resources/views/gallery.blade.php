@@ -10,25 +10,25 @@
 
         <div class="gallery-container">
 
+            <div class="gallery-nav-left-container photo-gallery-nav-container text-center">
+                <div class="photo-gallery-nav-icon-container" data-ng-click="ngClickScrollGalleryLeft()">
+                    <div class="photo-gallery-nav-left photo-gallery-nav-icon">
+                        <span class="nav-left-icon-top nav-icon"></span>
+                        <span class="nav-left-icon-bottom nav-icon"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-nav-right-container photo-gallery-nav-container text-center">
+                <div class="photo-gallery-nav-icon-container" data-ng-click="ngClickScrollGalleryRight()">
+                    <div class="photo-gallery-nav-right photo-gallery-nav-icon">
+                        <span class="nav-right-icon-top nav-icon"></span>
+                        <span class="nav-right-icon-bottom nav-icon"></span>
+                    </div>
+                </div>
+            </div>
+
             <div class="photo-images-gallery-container">
-
-                <div class="gallery-nav-left-container photo-gallery-nav-container text-center">
-                    <div class="photo-gallery-nav-icon-container" data-ng-click="ngClickScrollGalleryLeft()">
-                        <div class="photo-gallery-nav-left photo-gallery-nav-icon">
-                            <span class="nav-left-icon-top nav-icon"></span>
-                            <span class="nav-left-icon-bottom nav-icon"></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="gallery-nav-right-container photo-gallery-nav-container text-center">
-                    <div class="photo-gallery-nav-icon-container" data-ng-click="ngClickScrollGalleryRight()">
-                        <div class="photo-gallery-nav-right photo-gallery-nav-icon">
-                            <span class="nav-right-icon-top nav-icon"></span>
-                            <span class="nav-right-icon-bottom nav-icon"></span>
-                        </div>
-                    </div>
-                </div>
 
                 @foreach ($images as $image)
                 <div class="photo-image-container">
