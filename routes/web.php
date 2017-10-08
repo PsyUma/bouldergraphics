@@ -32,6 +32,8 @@ Route::get('/learn', function () {
     return view('learn');
 });
 
+Route::get('/gallery', ['uses' => 'GalleryController@getGalleryView', 'as' => 'gallery']);
+
 Route::get('/about-us', function () {
     return view('about-us');
 });
