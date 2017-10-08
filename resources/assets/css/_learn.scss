@@ -1,6 +1,5 @@
 .learn-page-container {
 
-  height: 600px;
   margin-bottom: 150px;
 
   &.inner-container {
@@ -22,11 +21,15 @@
         margin-bottom: 15px;
 
         .demo-videos-title-text {
+          width: 250px;
           font-size: 24px;
+          border-bottom: 1px solid $lightGrayBorder;
         }
       }
 
       .demo-video-content {
+
+        margin-bottom: 25px;
 
         .video-title {
           margin-bottom: 15px;
