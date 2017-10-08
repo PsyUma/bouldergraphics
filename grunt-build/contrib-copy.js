@@ -8,12 +8,12 @@ module.exports = function(grunt) {
                 //     src: ['**/*.js', '!**/template/**'],
                 //     dest: 'public/assets/js/constants/'
                 // },
-                // {
-                //     expand: true,
-                //     cwd: 'resources/assets/js/controllers',
-                //     src: ['**/*.js'],
-                //     dest: 'public/assets/js/controllers/'
-                // },
+                {
+                    expand: true,
+                    cwd: 'resources/assets/js/controllers',
+                    src: ['**/*.js'],
+                    dest: 'public/assets/js/controllers/'
+                },
                 // {
                 //     expand: true,
                 //     cwd: 'resources/assets/js/directives',
