@@ -32,7 +32,7 @@
                 <div class="member-details-container form-group col-xs-12 col-sm-4">
                     <div class="member-details">
                         <div class="member-name">Alyn Rockwood</div>
-                        <div class="member-title">Principle Scientist and Co-Founder</div>
+                        <div class="member-title">Principal Scientist and Co-Founder</div>
                     </div>
                 </div>
 
