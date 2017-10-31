@@ -1,0 +1,17 @@
+<div class="scripts-container">
+
+    <!-- @if NODE_ENV == 'DEV' -->
+    <script src="/assets/js/vendor/jquery.js"></script>
+    <script src="/assets/js/vendor/bootstrap.js"></script>
+    <script src="/assets/js/vendor/angular.js"></script>
+
+    <!-- angular stuff here  -->
+    <script src="/assets/js/app.js"></script>
+
+    <!-- @endif -->
+
+    <!-- @if NODE_ENV == 'PROD' || NODE_ENV == 'QA' -->
+    <script src="/assets/js/main-min.js"></script>
+    <!-- @endif -->
+
+</div>

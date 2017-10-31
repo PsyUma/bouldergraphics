@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "boulder-graphics",
+  "author": "Michael Boyd",
+  "description": "Web App for The Boulder Graphics Company Website",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/michaelboyd/boulder-graphics.git"
+  },
+  "devDependencies": {
+    "bower": "1.8.0",
+    "grunt": "1.0.1",
+    "grunt-cache-bust": "1.5.0",
+    "grunt-cli": "1.2.0",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-uglify": "2.0.0",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-preprocess": "5.1.0",
+    "grunt-sass": "^2.0.0"
+  }
+}

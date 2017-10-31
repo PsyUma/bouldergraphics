@@ -1,0 +1,23 @@
+{
+  "name": "boulder-graphics",
+  "description": "Web App for The Boulder Graphics Company Website",
+  "main": "",
+  "authors": [
+    "Michael Boyd"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/js/vendor",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6",
+    "jquery": "^3.2.1",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
