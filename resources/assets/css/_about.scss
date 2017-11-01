@@ -1,0 +1,82 @@
+.about-us-page-container {
+
+  &.inner-container {
+    margin-top: 80px;
+  }
+
+  .about-us-title-container {
+    margin-bottom: 25px;
+
+    .about-us-title-text {
+      font-size: 36px;
+    }
+  }
+
+  .team-content-container {
+
+    background-color: $veryLightGray;
+    padding-bottom: 25px;
+
+    .team-content {
+      padding-top: 45px;
+
+      @media (max-width: $bootstrapSmallWidth) {
+        padding-top: 10px;
+      }
+    }
+
+    .team-member-content-container {
+
+      @media (max-width: $bootstrapSmallWidth) {
+        margin-bottom: 0px;
+      }
+
+      .member-details-container {
+
+        padding-top: 25px;
+
+        @media (max-width: $bootstrapSmallWidth) {
+          text-align: center;
+        }
+
+        .member-name {
+          font-size: 24px;
+          font-weight: bold;
+          padding-bottom: 5px;
+        }
+
+        .member-title {
+          font-size: 18px;
+        }
+      }
+
+      .member-image-container {
+
+        text-align: right;
+
+        @media (max-width: $bootstrapSmallWidth) {
+          text-align: center;
+          margin-bottom: 0px;
+        }
+
+        .member-image {
+          height: 300px;
+          max-width: 100%;
+
+          @media (max-width: $bootstrapSmallWidth) {
+            height: auto;
+            width: 100%;
+            max-width: 450px;
+            padding-bottom: 35px;
+            border-bottom: 1px solid $lightGrayBorder;
+          }
+
+          &.no-mobile-border {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+
+  }
+}

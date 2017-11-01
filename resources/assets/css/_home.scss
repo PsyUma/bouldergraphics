@@ -1,0 +1,336 @@
+.home-page-container {
+
+  /*&.inner-container {
+    margin-bottom: 200px;
+  }*/
+
+  .splash-container {
+
+    .splash-image-background-container {
+      background: url(/assets/images/background-plain.png) 50% 50% no-repeat;
+      background-color: $backgroundBlue;
+      background-size: cover;
+      width: 100%;
+      height: 650px;
+      position: relative;
+
+      @media (max-width: $bootstrapSmallWidth) {
+        height: 500px;
+      }
+
+      .splash-image-container {
+
+        @media (max-width: 550px) {
+          display: none;
+        }
+
+        .splash-image {
+
+          margin-top: 25px;
+          margin-right: 100px;
+
+          @media (max-width: $bootstrapMediumWidth) {
+            margin-right: 80px;
+          }
+          @media (max-width: $bootstrapSmallWidth) {
+            margin-top: 50px;
+            margin-right: 30px;
+          }
+
+          .splash-image-icon {
+            height: 600px;
+
+            @media (max-width: $bootstrapSmallWidth) {
+              height: 400px;
+            }
+          }
+        }
+      }
+    }
+
+    .splash-action-container {
+      color: $white;
+
+      @media (max-width: 550px) {
+        width: 100%;
+        float: left;
+      }
+
+      .download-action-container {
+        margin-top: 100px;
+        margin-left: 150px;
+
+        @media (max-width: $bootstrapLargeWidth) {
+          margin-left: 50px;
+        }
+        @media (max-width: $bootstrapMediumWidth) {
+          margin-left: 0px;
+        }
+        @media (max-width: $bootstrapSmallWidth) {
+          margin-top: 65px;
+          margin-left: 40px;
+        }
+        @media (max-width: 550px) {
+          margin-top: 65px;
+          margin-left: 0px;
+        }
+
+        .action-container {
+          width: 450px;
+          margin-left: auto;
+          margin-right: auto;
+
+          @media (max-width: $bootstrapMediumWidth) {
+            width: 350px;
+          }
+          @media (max-width: $bootstrapSmallWidth) {
+            width: 100%;
+            max-width: 350px;
+            padding-left: 25px;
+            padding-right: 25px;
+          }
+        }
+      }
+
+      .logo-icon-container {
+
+        margin-bottom: 20px;
+
+        .logo-icon {
+          width: 200px;
+
+          @media (max-width: $bootstrapSmallWidth) {
+            width: 150px;
+          }
+        }
+      }
+
+      .app-tag-line-container {
+
+        .splash-text {
+          font-size: 24px;
+
+          @media (max-width: $bootstrapSmallWidth) {
+            font-size: 18px;
+          }
+        }
+      }
+
+      .app-download-container {
+        margin-top: 30px;
+
+        .btn-boulder-download {
+          height: 50px;
+          width: 200px;
+          font-size: 18px;
+          background-color: $bootstrapGrayButton;
+          border-radius: 0px;
+
+          &.btn-download-superd-app {
+            margin-right: 10px;
+
+            @media (max-width: $bootstrapMediumWidth) {
+              margin-bottom: 15px;
+              margin-right: 0px;
+            }
+          }
+          &.btn-download-superd-tutorial {
+            margin-left: 10px;
+
+            @media (max-width: $bootstrapMediumWidth) {
+              margin-left: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .app-tooling-container {
+    width: 100%;
+    height: 180px;
+    padding-top: 40px;
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+
+    @media (max-width: $bootstrapMediumWidth) {
+      height: 160px;
+      padding-top: 30px;
+    }
+    @media (max-width: $bootstrapSmallWidth) {
+      height: 240px;
+    }
+    @media (max-width: 450px) {
+      height: 300px;
+      padding-top: 35px;
+    }
+
+    .app-tooling-content-container {
+      width: 1180px;
+      margin: 0px auto;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      @media (max-width: $bootstrapLargeWidth) {
+        width: 950px;
+      }
+
+      @media (max-width: $bootstrapMediumWidth) {
+        width: 750px;
+      }
+
+      @media (max-width: $bootstrapSmallWidth) {
+        width: 550px;
+        padding: 0px 15px;
+      }
+      @media (max-width: 550px) {
+        width: 100%;
+        max-width: 550px;
+      }
+      @media (max-width: 450px) {
+        padding: 0px 15px;
+      }
+
+      .tooling-content-container {
+        width: 250px;
+
+        @media (max-width: $bootstrapLargeWidth) {
+          width: 200px;
+        }
+        @media (max-width: $bootstrapMediumWidth) {
+          width: 150px;
+        }
+        @media (max-width: $bootstrapSmallWidth) {
+          width: 200px;
+          margin-bottom: 25px;
+        }
+        @media (max-width: 450px) {
+          width: 150px;
+        }
+        @media (max-width: 350px) {
+          width: 125px;
+        }
+
+        .tools-image-icon {
+          width: 50px;
+          height: 50px;
+
+          @media (max-width: $bootstrapMediumWidth) {
+            width: 35px;
+            height: 35px;
+          }
+        }
+
+        .tools-text-container {
+          margin-top: 15px;
+          font-size: 20px;
+
+          @media (max-width: $bootstrapMediumWidth) {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .app-description-container {
+
+    height: 600px;
+    background-color: $veryLightGray;
+
+    @media (max-width: $bootstrapSmallWidth) {
+      height: auto;
+      padding-bottom: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .app-description-content-container {
+      padding-top: 40px;
+    }
+
+    .app-description-feature-container {
+
+      .app-inner-description-container {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media (max-width: $bootstrapLargeWidth) {
+          width: 450px;
+        }
+        @media (max-width: $bootstrapMediumWidth) {
+          width: 400px;
+        }
+        @media (max-width: $bootstrapSmallWidth) {
+          width: 100%;
+          max-width: 400px;
+        }
+
+        .description-title-container {
+
+          margin-bottom: 25px;
+
+          &.app-features-title-container {
+            margin-top: 15px;
+          }
+
+          .title-text {
+            font-size: 36px;
+            font-weight: bold;
+
+            @media (max-width: $bootstrapLargeWidth) {
+              font-size: 28px;
+            }
+            @media (max-width: $bootstrapMediumWidth) {
+              font-size: 24px;
+            }
+          }
+        }
+
+        .description-content-container {
+
+          &.app-content-text-container {
+            margin-bottom: 25px;
+          }
+
+          .content-text, .description-content-list {
+            font-size: 18px;
+          }
+
+          .feature-list-item {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    .app-model-image {
+
+      margin-left: 200px;
+
+      @media (max-width: $bootstrapExtraLargeWidth) {
+        margin-left: 150px;
+      }
+      @media (max-width: $bootstrapLargeWidth) {
+        margin-left: 100px;
+      }
+      @media (max-width: $bootstrapMediumWidth) {
+        margin-left: 50px;
+      }
+      @media (max-width: 850px) {
+        margin-left: 15px;
+      }
+
+      .model-image {
+        width: 300px;
+
+        @media (max-width: $bootstrapSmallWidth) {
+          display: none;
+        }
+      }
+    }
+  }
+}
