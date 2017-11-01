@@ -17,7 +17,8 @@ module.exports = function(grunt) {
         'concat:publicCSS',
         'copy:scripts',
         'copy:vendor',
-        // 'copy:images',
+        'copy:fonts',
+        'copy:images',
         'clean:cleanup'
     ]);
 
@@ -28,7 +29,8 @@ module.exports = function(grunt) {
         'sass:prod',
         'concat:publicCSS',
         'concat:scripts',
-        // 'copy:images',
+        'copy:fonts',
+        'copy:images',
         'uglify',
         'cacheBust',
         'clean:cleanup'
@@ -41,7 +43,8 @@ module.exports = function(grunt) {
         'sass:prod',
         'concat:publicCSS',
         'concat:scripts',
-        // 'copy:images',
+        'copy:fonts',
+        'copy:images',
         'uglify',
         'cacheBust',
         'clean:cleanup'

@@ -1,0 +1,156 @@
+/*
+ * Import CSS from bootstrap
+ */
+@import "../../js/vendor/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import '../library/_variables';
+@import '../library/_colors';
+
+/**
+ * Global CSS START
+ */
+
+/** NOTE: CSS loads faster than angular. IMPORTANT!!! */
+[ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-animate) {
+    display: none !important;
+}
+
+.ng-hidden {
+  visibility: hidden !important;
+}
+
+body {
+  background-color: $white;
+  color: $black;
+}
+
+.form-group {
+  padding: 0px;
+  margin-bottom: 25px;
+}
+
+.form-group-no-margin {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.text-10-spaced {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+
+.text-12-spaced {
+  font-size: 12px;
+  letter-spacing: 0.125em;
+}
+
+.text-14-spaced {
+  font-size: 14px;
+  letter-spacing: 0.125em;
+}
+
+.text-16-spaced {
+  font-size: 16px;
+  letter-spacing: 0.2em;
+}
+
+.text-18-spaced {
+  font-size: 18px;
+  letter-spacing: 0.25em;
+}
+
+a, a:visited, a:hover, a:focus {
+  color: $black;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  width: inherit;
+}
+
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+  outline: none;
+}
+
+.divider {
+  border-top: 1px solid $lightGrayBorder;
+}
+
+.outside-container {
+
+  .inner-container {
+    margin-top: 50px;
+  }
+
+  .navbar-default {
+    background-color: $lightBlue;
+    border-color: $lightBlue;
+    color: $white;
+
+    .navbar-container {
+
+      .navbar-toggle {
+        margin-right: 0px;
+        border-color: $white;
+
+        &:focus {
+          background-color: transparent;
+        }
+        &:hover {
+          background-color: transparent;
+        }
+      }
+      .icon-bar {
+        background-color: $white;
+      }
+
+      .navbar-collapse {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+    }
+
+    .navbar-brand, .navbar-nav > li > a  {
+      color: $white;
+    }
+
+    .navbar-nav {
+      @media (max-width: $bootstrapSmallWidth) {
+        margin: 0px;
+      }
+    }
+  }
+
+  .boulder-footer {
+    height: 130px;
+    color: $white;
+    position: relative;
+    background-color: $darkBlue;
+
+    .footer-content-container {
+      width: 100%;
+      bottom: 20px;
+      position: absolute;
+    }
+
+    .social-icons-container {
+      width: 400px;
+      display: inline-flex;
+      margin-bottom: 25px;
+
+      @media (max-width: 430px) {
+        width: 100%;
+      }
+
+      .footer-social-icon {
+        color: $white;
+        font-size: 30px;
+
+        @media (max-width: 430px) {
+          font-size: 24px;
+        }
+      }
+    }
+
+  }
+
+}

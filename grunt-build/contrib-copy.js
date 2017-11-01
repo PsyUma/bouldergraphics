@@ -8,12 +8,12 @@ module.exports = function(grunt) {
                 //     src: ['**/*.js', '!**/template/**'],
                 //     dest: 'public/assets/js/constants/'
                 // },
-                // {
-                //     expand: true,
-                //     cwd: 'resources/assets/js/controllers',
-                //     src: ['**/*.js'],
-                //     dest: 'public/assets/js/controllers/'
-                // },
+                {
+                    expand: true,
+                    cwd: 'resources/assets/js/controllers',
+                    src: ['**/*.js'],
+                    dest: 'public/assets/js/controllers/'
+                },
                 // {
                 //     expand: true,
                 //     cwd: 'resources/assets/js/directives',
@@ -51,6 +51,24 @@ module.exports = function(grunt) {
                 {
                     src: 'resources/assets/js/vendor/angular/angular.js',
                     dest: 'public/assets/js/vendor/angular.js'
+                }
+            ]
+        },
+        fonts: {
+            files: [
+                {
+                    src: 'resources/assets/css/library/fonts/font-awesome.min.css',
+                    dest: 'public/assets/css/font-awesome.min.css'
+                },
+                {
+                    src: 'resources/assets/css/library/fonts/fonts.css',
+                    dest: 'public/assets/css/fonts.css'
+                },
+                {
+                    expand: true,
+                    cwd: 'resources/assets/css/library/fonts/font-awesome-4.7.0',
+                    src: ['**/*'],
+                    dest: 'public/assets/fonts/fontawesome'
                 }
             ]
         },
